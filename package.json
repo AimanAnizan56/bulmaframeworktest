@@ -5,7 +5,8 @@
     "main": "webpack.config.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
@@ -24,6 +25,7 @@
         "bulma": "^0.9.3",
         "css-loader": "^6.5.1",
         "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "gh-pages": "^3.2.3",
         "mini-css-extract-plugin": "^2.4.5",
         "node-sass": "^7.0.1",
         "sass-loader": "^12.4.0",
