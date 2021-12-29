@@ -1,0 +1,34 @@
+{
+    "name": "bulma-framework-test",
+    "version": "1.0.0",
+    "description": "this is for testing bulma framework",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "ins-all": "npm install bulma --save-dev && npm install css-loader --save-dev && npm install extract-text-webpack-plugin@next --save-dev && npm install mini-css-extract-plugin --save-dev && npm install node-sass --save-dev && npm install sass-loader --save-dev && npm install style-loader --save-dev && npm install webpack --save-dev && npm install webpack-cli --save-dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AimanAnizan56/bulmaframeworktest.git"
+    },
+    "keywords": [
+        "bulma"
+    ],
+    "author": "Aiman Anizan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AimanAnizan56/bulmaframeworktest/issues"
+    },
+    "homepage": "https://github.com/AimanAnizan56/bulmaframeworktest#readme",
+    "devDependencies": {
+        "bulma": "^0.9.3",
+        "css-loader": "^6.5.1",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "mini-css-extract-plugin": "^2.4.5",
+        "node-sass": "^7.0.1",
+        "sass-loader": "^12.4.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
